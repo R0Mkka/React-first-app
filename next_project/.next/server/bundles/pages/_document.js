@@ -67,32 +67,144 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 18);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 18:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./pages/_document.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = __webpack_require__(19);
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__("next/document");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_document__);
+var _jsxFileName = "/home/roman/work/next_project/pages/_document.js";
+
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var MyDocument =
+/*#__PURE__*/
+function (_Document) {
+  _inherits(MyDocument, _Document);
+
+  function MyDocument() {
+    _classCallCheck(this, MyDocument);
+
+    return _possibleConstructorReturn(this, (MyDocument.__proto__ || Object.getPrototypeOf(MyDocument)).apply(this, arguments));
+  }
+
+  _createClass(MyDocument, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        }
+      }, "\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435 \u0441\u0430\u0439\u0442\u043E\u0432 | Digital heroes club"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "/_next/static/style.css",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+        rel: "icon",
+        href: "../static/icon/icon.ico",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("style", {
+        dangerouslySetInnerHTML: {
+          __html: "\n            body {\n              margin: 0;\n              padding: 0;\n              font-family: \"SourceSansPro\", sans-serif;\n              background-color: #edf0f4;\n              overflow-y: scroll;\n            }\n\n            h1 {\n              font-size: 60px;\n              font-weight: 300;\n            }\n\n            ul { list-style: none; }\n\n            a {\n              outline: none;\n              text-decoration: none;\n            }\n\n            @font-face {\n            \tfont-family: 'SourceSansPro';\n            \tsrc: url('../static/fonts/SourceSansPro-Regular.eot');\n            \tsrc: local('\u263A'), url('../static/fonts/SourceSansPro-Regular.woff') format('woff'),\n            \turl('../static/fonts/SourceSansPro-Regular.ttf') format('truetype'),\n            \turl('../static/fonts/SourceSansPro-Regular.svg') format('svg');\n            \tfont-weight: normal;\n            \tfont-style: normal;\n            }\n\n            @font-face {\n            \tfont-family: 'SourceSansPro';\n            \tsrc: url('../static/fonts/SourceSansPro-Light.eot');\n            \tsrc: local('\u263A'), url('../static/fonts/SourceSansPro-Light.woff') format('woff'),\n            \turl('../static/fonts/SourceSansPro-Light.ttf') format('truetype'),\n            \turl('../static/fonts/SourceSansPro-Light.svg') format('svg');\n            \tfont-weight: 300;\n            \tfont-style: normal;\n            }\n\n            @font-face {\n            \tfont-family: 'SourceSansPro';\n            \tsrc: url('../static/fonts/SourceSansPro-ExtraLight.eot');\n            \tsrc: local('\u263A'), url('../static/fonts/SourceSansPro-ExtraLight.woff') format('woff'),\n            \turl('../static/fonts/SourceSansPro-ExtraLight.ttf') format('truetype'),\n            \turl('../static/fonts/SourceSansPro-ExtraLight.svg') format('svg');\n            \tfont-weight: 200;\n            \tfont-style: normal;\n            }\n\n            @font-face {\n            \tfont-family: 'SourceSansPro';\n            \tsrc: url('../static/fonts/SourceSansPro-Bold.eot');\n            \tsrc: local('\u263A'), url('../static/fonts/SourceSansPro-Bold.woff') format('woff'),\n            \turl('../static/fonts/SourceSansPro-Bold.ttf') format('truetype'),\n            \turl('../static/fonts/SourceSansPro-Bold.svg') format('svg');\n            \tfont-weight: 700;\n            \tfont-style: normal;\n            }\n          "
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+        src: "../static/js/script.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        }
+      })));
+    }
+  }]);
+
+  return MyDocument;
+}(__WEBPACK_IMPORTED_MODULE_1_next_document___default.a);
+
 
 
 /***/ }),
 
-/***/ 19:
+/***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(20)
+module.exports = __webpack_require__("./pages/_document.js");
 
 
 /***/ }),
 
-/***/ 20:
+/***/ "next/document":
 /***/ (function(module, exports) {
 
 module.exports = require("next/document");
 
+/***/ }),
+
+/***/ "react":
+/***/ (function(module, exports) {
+
+module.exports = require("react");
+
 /***/ })
 
 /******/ });
+//# sourceMappingURL=_document.js.map

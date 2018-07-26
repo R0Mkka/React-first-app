@@ -1,4 +1,4 @@
-import Layout from '../components/MyLayout'
+/* import Layout from '../components/MyLayout'
 
 const About = () => (
   <Layout>
@@ -6,4 +6,4 @@ const About = () => (
   </Layout>
 )
 
-export default About;
+export default About; */

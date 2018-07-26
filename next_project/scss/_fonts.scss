@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'SourceSansPro';
+	src: url('../static/fonts/SourceSansPro-Regular.eot');
+	src: local('☺'), url('../static/fonts/SourceSansPro-Regular.woff') format('woff'),
+	url('../static/fonts/SourceSansPro-Regular.ttf') format('truetype'),
+	url('../static/fonts/SourceSansPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro';
+	src: url('../static/fonts/SourceSansPro-Light.eot');
+	src: local('☺'), url('../static/fonts/SourceSansPro-Light.woff') format('woff'),
+	url('../static/fonts/SourceSansPro-Light.ttf') format('truetype'),
+	url('../static/fonts/SourceSansPro-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro';
+	src: url('../static/fonts/SourceSansPro-ExtraLight.eot');
+	src: local('☺'), url('../static/fonts/SourceSansPro-ExtraLight.woff') format('woff'),
+	url('../static/fonts/SourceSansPro-ExtraLight.ttf') format('truetype'),
+	url('../static/fonts/SourceSansPro-ExtraLight.svg') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro';
+	src: url('../static/fonts/SourceSansPro-Bold.eot');
+	src: local('☺'), url('../static/fonts/SourceSansPro-Bold.woff') format('woff'),
+	url('../static/fonts/SourceSansPro-Bold.ttf') format('truetype'),
+	url('../static/fonts/SourceSansPro-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}

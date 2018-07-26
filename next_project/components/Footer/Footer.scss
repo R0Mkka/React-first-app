@@ -1,0 +1,25 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	right: 0px;
+	z-index: 1;
+	padding: 25px 57px;
+	background-color: #fff;
+	transition: right .25s ease-in-out;
+
+	a { margin-left: 10px; }
+
+	a:active,
+	a:hover,
+	a:link { color: #3e3cf8; }
+
+	a:visited { color: #8001ff; }
+}
+
+.footer_padding-left-right-50 {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.slick { right: -210px; }

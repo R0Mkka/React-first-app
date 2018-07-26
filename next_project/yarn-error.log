@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add next-sass
+
+PATH: 
+  /home/roman/.rvm/gems/ruby-2.5.1/bin:/home/roman/.rvm/gems/ruby-2.5.1@global/bin:/home/roman/.rvm/rubies/ruby-2.5.1/bin:/home/roman/bin:/home/roman/.local/bin:/home/roman/bin:/home/roman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/roman/.rvm/bin:/home/roman/.rvm/bin:/home/roman/.rvm/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.3
+
+Platform: 
+  linux ia32
+
+Trace: 
+  Error: https://registry.yarnpkg.com/next-sass: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:65656:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:134675:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:135658:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:135578:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "next_project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "node server.js",
+      "build": "next build",
+      "start": "next start -p 8000"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.16.3",
+      "next": "^6.1.1",
+      "react": "^16.4.1",
+      "react-dom": "^16.4.1",
+      "react-markdown": "^3.3.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

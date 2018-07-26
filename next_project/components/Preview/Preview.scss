@@ -1,0 +1,34 @@
+.preview {
+	max-width: 1620px;
+	width: 100%;
+	display: table;
+	position: relative;
+	height: 50vh;
+	margin: 0;
+	z-index: 1;
+	background-color: #3e3cf8;
+	background-image: linear-gradient(-225deg,#3d3bff 0%,#3e3cec 48%,#8200ff 100%);
+}
+
+.preview__text {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 68px;
+  line-height: 1.25;
+  color: #fff;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+.preview__link {
+	text-decoration: none;
+	border-bottom: 20px solid #8001ff;
+	display: inline-block;
+	line-height: 0.5;
+}
+
+.preview__link:active,
+.preview__link:visited,
+.preview__link:hover,
+.preview__link:link { color: #fff; }
