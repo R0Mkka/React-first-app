@@ -5,87 +5,130 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>О Нас | Разработка и развитие сайтов</title>
+  <link rel="icon" href="icon.ico">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet"> -->
 </head>
 <body>
-  <div class="header">
-		<div class="menu scroll" >
-			<div class="menu__button" title="Меню">
-				<img src="img/menu_nofocus.png" alt="Menu">
-			</div>
-			<div class="menu__logo">
-				DIGITAL HEROES CLUB <sup class="menu__beta-word">βeta</sup>
-			</div>
-			<div class="menu__contacts">
-				<span class="menu__phone" title="Позвоните нам">
-					+7 (926) 934-33-73
-				</span>
-				<a href="#">
-					<img class="menu__social" src="img/facebook.png" alt="Facebook" title="Facebook">
-				</a>
-				<a href="#">
-					<img class="menu__social" src="img/telegram.png" alt="Telegram" title="Telegram">
-				</a>
-			</div>
-		</div>
-	</div>
-  <div class="content content-about">
-    <div class="content__block content-alignment">
-      <h1>О нас</h1>
-      <p>
-        Запускаем сайты на фреймворке Ruby on Rails или системе управления Drupal.
-      </p>
-      <p>
-        Объединились в команду из двух разработчиков в 2014 году и приняли участие в
-        работе над более чем 8 проектами с тех пор. С 2016 года к нашей команде постепенно
-        присоединились программист PHP/Drupal, UI/UX дизайнер, SMM специалист и штатный копирайтер.
-      </p>
-      <p>
-        Наши цели в 2018 году прокачать наш дизайн, от проектирования до продакшена. Больше
-        погружаться в построение бизнес процессов и таким образом полноценно обеспечивать успешное
-        развитие бизнеса наших клиентов в интернете.
-      </p>
-    </div>
-    <div class="content__block content-alignment">
-      <h2>Услуги</h2>
-      <div class="content__row">
-        <div class="content__block">
-          <h3>Проектирование</h3>
-        </div>
-        <div class="content__block">
-          <h3>Дизайн</h3>
-        </div>
-        <div class="content__block">
-          <h3>Разработка</h3>
-        </div>
-      </div>
-      <div class="content__row">
-        <div class="content__block">
-          <h3>Реклама</h3>
-        </div>
-        <div class="content__block">
-          <h3>Продвижение</h3>
-        </div>
-        <div class="content__block">
-          <h3>Развитие</h3>
+  <div class="page">
+    <div class="header-wrapper">
+      <div class="header">
+        <div class="menu menu_scroll" >
+          <div class="menu__button" title="Меню">
+            <img src="img/menu_nofocus.png" alt="Menu">
+          </div>
+          <div class="menu__logo">
+            <a class="menu__home-link" href="index.html"> DIGITAL HEROES CLUB <sup class="menu__beta-word">βeta</sup> </a>
+          </div>
+          <div class="menu__contacts">
+            <span class="menu__phone" title="Позвоните нам">
+              +7 (926) 934-33-73
+            </span>
+            <a href="#">
+              <img class="menu__social" src="img/facebook.png" alt="Facebook" title="Facebook">
+            </a>
+            <a href="#">
+              <img class="menu__social" src="img/telegram.png" alt="Telegram" title="Telegram">
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    
+    <div class="dynamic-part-box">
+  		<div class="bordered-visible-box">
+    		<div class="left-menu">
+    			<ul>
+            <li><a href="about.html" title="О нас">О нас</a> </li>
+    				<li><a href="works.html" title="Работы">Работы </a> </li>
+    				<li><a href="contacts.html" title="Контакты">Контакты </a> </li>
+    			</ul>
+    		</div>
+        <div class="content content__about content_padding-left-right-40">
+          <div class="content__about-header">
+            <h1>О нас</h1>
+            <p>
+                Запускаем сайты на фреймворке Ruby on Rails или системе управления Drupal.
+            </p>
+            <p>
+                Объединились в команду из двух разработчиков в 2014 году и приняли участие в
+                работе над более чем 8 проектами с тех пор. С 2016 года к нашей команде постепенно
+                присоединились программист PHP/Drupal, UI/UX дизайнер, SMM специалист и штатный копирайтер.
+            </p>
+            <p>
+                Наши цели в 2018 году прокачать наш дизайн, от проектирования до продакшена. Больше
+                погружаться в построение бизнес процессов и таким образом полноценно обеспечивать успешное
+                развитие бизнеса наших клиентов в интернете.
+            </p>
+          </div>
+          <div class="content__about-services">
+            <h2>Услуги</h2>
+            <div class="row">
+              <div class="row__block row__block_margin-10">
+                <h3>Проектирование</h3>
+                <p>
+                  Перед началом работ по разработке, поисковому продвижению и запуску рекламной кампании
+                  необходимо проработать максимум деталей.
+                </p>
+              </div>
+              <div class="row__block row__block_margin-10">
+                <h3>Дизайн</h3>
+                <p>
+                  Взаимодействие пользователя с сайтом, удобство интерфейса, воронка продаж, стратегия
+                  продвижения и наконец графическое оформление.
+                </p>
+              </div>
+              <div class="row__block row__block_margin-10">
+                <h3>Разработка</h3>
+                <p>
+                  Ruby on Rails — наша основная платформа, что позволяет применять современные методы
+                  разработки, а Drupal рекомендуем для типовых сайтов.
+                </p>
+              </div>
+            </div>
+            <div class="row row_last">
+              <div class="row__block row__block_margin-10">
+                <h3>Реклама</h3>
+                <p>
+                  Привлечение и возвращение клиентов как при запуске проекта, так и в процессе его
+                  поискового продвижения.
+                </p>
+              </div>
+              <div class="row__block row__block_margin-10">
+                <h3>Продвижение</h3>
+                <p>
+                  Независимо от существующих оборотов при грамотном построении стратегии продвижения
+                  мы можем увеличить количество новых клиентов.
+                </p>
+              </div>
+              <div class="row__block row__block_margin-10">
+                <h3>Развитие</h3>
+                <p>
+                  Мы берём на себя обслуживание проектов на разных стадиях готовности, связывая
+                  техническую поддержку и развитие в единый гармоничный узел.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <hr class="line">
-  <div class="footer">
-    <div class="footer__copyright">
-      digitalheroes.club &#8212; разработка и развитие сайтов &#169; 2014 - 2018
-    </div>
-    <div class="footer__links">
-      <a href="about.html" class="footer__link" title="О нас">О нас</a>
-      <a href="works.html" class="footer__link" title="Работы">Работы</a>
-      <a href="contacts.html" class="footer__link" title="Контакты">Контакты</a>
+        <hr class="line">
+        <div class="footer footer_padding-left-right-50">
+          <div class="footer__copyright">
+            digitalheroes.club &#8212; разработка и развитие сайтов &#169; 2014 - 2018
+          </div>
+          <div class="footer__links">
+            <a href="about.html" class="footer__link" title="О нас">О нас</a>
+            <a href="works.html" class="footer__link" title="Работы">Работы</a>
+            <a href="contacts.html" class="footer__link" title="Контакты">Контакты</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
   <script src="js/script.js"></script>
+  <script src="js/jquery.js"></script>
 </body>
 </html>
