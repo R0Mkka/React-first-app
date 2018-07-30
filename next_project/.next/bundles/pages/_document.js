@@ -1753,12 +1753,6 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 75
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "../static/js/script.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        }
       })));
     }
   }]);

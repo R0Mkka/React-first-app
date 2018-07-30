@@ -40,6 +40,10 @@ window.addEventListener('DOMContentLoaded', function() {
       }
       menu.style.width = header.clientWidth + 'px';
     };
+
+    document.onreload = function(event) {
+      console.log('hi');
+    }
   }
 
 });

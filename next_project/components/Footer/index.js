@@ -6,11 +6,23 @@ class Footer extends Component {
   constructor(props) {
     super(props);
     this.props = props;
+    this.state = {
+      footerClassList: "footer"
+    }
+  }
+
+  componentDidMount = () => {
+    let footerClassList = (this.props.footer_padding == true) ?
+    "footer footer_padding-left-right-50" : "footer";
+
+    this.setState({
+      footerClassList: footerClassList
+    });
   }
 
   render() {
     return (
-      <div className="footer">
+      <div className={this.state.footerClassList}>
     		<div className="footer__copyright">
     			digitalheroes.club &#8212; разработка и развитие сайтов &#169; 2014 - 2018
     		</div>
