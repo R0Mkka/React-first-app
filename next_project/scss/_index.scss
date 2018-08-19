@@ -7,15 +7,19 @@
 	background-color: #fff;
 	transition: right .25s ease-in-out;
 }
-.row { display: flex; }
 
-.row_img-alignment {
+.content__blocks-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content_alignment {
 	margin: 0px 45px 0px 45px;
 	padding: 0px;
 }
 
-.row__block {
-  	flex: 1;
+.content__block {
+		width: 32%;
   	position: relative;
 
   	span { color: #3e3cf8; }
@@ -31,16 +35,16 @@
 	img:hover { opacity: .25; }
 }
 
-.row__block_margin-10 { margin: 10px; }
+.content__block_margin-10 { margin: 10px; }
 
-.row__text-block {
+.content__text-block {
 	font-size: 30px;
 	font-weight: 300;
 	line-height: 1.5;
 	padding-top: 10px;
 }
 
-.row__block-background {
+.content__block-background {
 	position: absolute;
 	top: 0px;
 	width: 100%;
@@ -55,5 +59,3 @@
 		font-weight: 700;
 	}
 }
-
-.row_last { margin-bottom: 5px; }

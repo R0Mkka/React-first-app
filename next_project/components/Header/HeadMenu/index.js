@@ -9,20 +9,19 @@ class HeadMenu extends Component {
     this.props = props;
     this.state = {
       menuBtn: "../../static/img/menu_nofocus.png",
-      menuClassList: "menu"
+      menuClassList: "menu menu_scroll"
     }
   }
 
   componentDidMount = () => {
-    let menu = document.querySelector('.menu'),
-        preview = document.querySelector('.preview'),
+    let preview = document.querySelector('.preview'),
         preview_height;
 
-    preview_height = (preview !== null) ? preview.offsetHeight : 112;
+    preview_height = (preview !== null) ? preview.offsetHeight : 100;
 
     let menuShow = () => {
       let menuClassList =
-      (window.pageYOffset >= (preview_height - 112)) ? "menu menu_scroll" : "menu";
+      (window.pageYOffset >= (preview_height - 100)) ? "menu menu_scroll" : "menu";
 
       this.setState({ menuClassList: menuClassList });
     }
